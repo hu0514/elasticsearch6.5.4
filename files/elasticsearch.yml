@@ -1,0 +1,10 @@
+cluster.name: dev-example-elasticsearch
+node.name: ${HOSTNAME}
+path.data: /data/es6.5/data
+path.logs: /data/es6.5/logs
+bootstrap.memory_lock: false
+network.host: 0.0.0.0
+http.port: 9200
+#discovery.zen.minimum_master_nodes: 2
+http.cors.enabled: true
+http.cors.allow-origin: "*"
