@@ -1,0 +1,1 @@
+docker run -d --name elasticsearch --net host -e ES_JAVA_OPTS="-Xms100m -Xmx100m" -e "discovery.type=single-node" elasticsearch:tag
